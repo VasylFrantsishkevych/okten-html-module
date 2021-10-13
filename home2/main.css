@@ -1,0 +1,34 @@
+.head {
+    background: #46e3b8;
+    color: #41033f;
+    text-align: center;
+    border: 3px solid #41033f;
+}
+.description {
+    background: #c3fadc;
+    font-size: 20px;
+    text-indent:25px;
+    text-align: justify;
+}
+.imagehead {
+    width: 400px;
+    height: 267px;
+}
+.image {
+    height: 256px;
+    width: 467px;
+}
+.subtitle {
+    background: #46e3b8;
+    text-align: center;
+    border-bottom: 3px solid #41033f;
+    margin: 30px 0 30px 0;
+}
+.item {
+    text-align: justify;
+    border-left: 3px solid #41033f;
+}
+.namecar {
+    background: #c3fadc;
+    text-align: center;
+}
