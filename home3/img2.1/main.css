@@ -1,0 +1,40 @@
+.mainblock {
+    width: 1000px;
+    height: 900px;
+    padding-top: 10px;
+}
+.header {
+    background: #46e3b8;
+    width: 980px;
+    height: 205px;
+    margin: 0 0 10px 10px;
+}
+.blocks {
+    width: 980px;
+    height: 460px;
+    margin-left: 10px;
+    display: flex;
+}
+.block1 {
+    background: #6565b6;
+    width: 340px;
+    height: 460px;
+    margin-right: 10px;
+}
+.block2 {
+    background: #cc6666;
+    width: 630px;
+    height: 225px;
+}
+.block3 {
+    background: #cc6666;
+    width: 630px;
+    height: 225px;
+    margin-top: 10px;
+}
+.footer {
+    background: burlywood;
+    width: 980px;
+    height: 205px;
+    margin: 10px 0 0 10px;
+}

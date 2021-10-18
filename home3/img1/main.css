@@ -1,0 +1,28 @@
+.mainblock {
+    background: grey;
+    width: 1000px;
+    height: 700px;
+    padding: 10px;
+}
+.block1 {
+    background: #a8b6c2;
+    width: 1000px;
+    height: 250px;
+}
+.block {
+    width: 1000px;
+    height: 440px;
+    margin-top: 10px;
+    display: flex;
+}
+.block2 {
+    background: #a8b6c2;
+    width: 700px;
+    height: 440px;
+    margin-right: 10px;
+}
+.block3 {
+    background: #a8b6c2;
+    width: 300px;
+    height: 440px;
+}
