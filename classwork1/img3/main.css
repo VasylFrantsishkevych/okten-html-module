@@ -1,0 +1,45 @@
+.main {
+    background: #46e3b8;
+    width: 915px;
+    height: 760px;
+}
+.header {
+    background: coral;
+    width: 915px;
+    height: 250px;
+}
+.blocks {
+    width: 915px;
+    height: 510px;
+    margin: 5px 0 0 0;
+    display: flex;
+}
+.a {
+    width: 615px;
+    height: 505px;
+}
+.b {
+    background: #e8997c;
+    width: 295px;
+    height: 505px;
+    margin-left: 5px;
+}
+.c {
+    background: #c5672d;
+    width: 615px;
+    height: 250px;
+
+}
+.d {
+    width: 615px;
+    height: 250px;
+    margin-top: 5px;
+    display: flex;
+    justify-content: space-between;
+}
+.d3 {
+    background: #dc8d2a;
+    width: 200px;
+    height: 250px;
+
+}

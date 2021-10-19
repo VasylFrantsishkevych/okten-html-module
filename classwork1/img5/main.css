@@ -1,0 +1,36 @@
+.main {
+    background: #87e087;
+    width: 1200px;
+    height: 920px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.a {
+    width: 620px;
+    height: 500px;
+    display: flex;
+    justify-content: space-between;
+}
+.a1 {
+    background: #6565b6;
+    width: 305px;
+    height: 500px;
+}
+.b {
+    background: #383872;
+    width: 620px;
+    height: 250px;
+    margin: 10px 0 10px 0;
+}
+.c {
+    width: 620px;
+    height: 150px;
+    display: flex;
+    justify-content: space-between;
+}
+.c1 {
+    background: #594ee1;
+    width: 200px;
+    height: 150px;
+}
