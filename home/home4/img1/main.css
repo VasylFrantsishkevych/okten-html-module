@@ -1,0 +1,25 @@
+.bg {
+    background: darkgrey;
+}
+.container {
+    width: 800px;
+    border: 3px solid grey;
+    border-radius: 20px;
+    margin: auto;
+    padding: 10px;
+}
+.container__header {
+    height: 200px;
+}
+.container__basic {
+    height: 400px;
+    display: flex;
+    column-gap: 10px;
+    margin-top: 10px;
+}
+.container__basic__left {
+    flex-grow: 3;
+}
+.container__basic__right {
+    flex-grow: 1;
+}

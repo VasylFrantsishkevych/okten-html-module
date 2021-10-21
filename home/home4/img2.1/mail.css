@@ -1,0 +1,32 @@
+.b {
+    border: 3px solid #333333;
+}
+.m {
+  margin-top: 10px;  
+}
+.container {
+    width: 500px;
+    margin: auto;
+}
+.header__footer {
+    height: 100px;
+    background: #87e087;
+}
+.main {
+    height: 400px;
+    display: flex;
+}
+.main__menu {
+    flex-grow: 1;
+    background: #cc6666;
+    margin-right: 10px;
+}
+.main__posts {
+    flex-grow: 2;
+    
+}
+.main__posts__post1 {
+    height: 190px;
+    background: #4ec5b3;
+    box-sizing: border-box;
+}

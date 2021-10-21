@@ -1,0 +1,29 @@
+.height100 {
+    height: 100px;
+}
+.container {
+    width: 600px;
+    margin: auto;
+}
+.header {
+    background: #4073bb;
+}
+.navigation {
+    height: 80px;
+    background: #232d4f;
+}
+.main {
+    height: 400px;
+    display: flex;
+}
+.main__left {
+    flex-grow: 3;
+    background: #3adece;
+}
+.main__right {
+    flex-grow: 1;
+    background: #6565b6;
+}
+.footer {
+    background: #5fbebe;
+}

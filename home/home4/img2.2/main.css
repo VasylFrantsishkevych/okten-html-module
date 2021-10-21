@@ -1,0 +1,23 @@
+.bg_1 {
+    background: #2b2bd7;
+}
+.container {
+    width: 600px;
+    margin: auto;
+}
+.header {
+    height: 200px;
+}
+.item {
+    height: 170px;
+    display: flex;
+    column-gap: 10px;
+    margin: 10px 0 10px 0;
+}
+.item1 {
+    flex-grow: 3;
+    background: darkblue;
+}
+.contact {
+    height: 400px;
+}
