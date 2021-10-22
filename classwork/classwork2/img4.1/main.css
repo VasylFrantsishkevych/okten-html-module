@@ -104,12 +104,9 @@
     width: 80px;
 }
 .main__wrap__name, .main__wrap__info {
-
     justify-content: center;
     column-gap: 5px;
 }
 .main__wrap__info__2 {
     width: 20px;
 }
-
-
