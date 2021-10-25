@@ -1,0 +1,231 @@
+:root {
+    --gray: #cad7e0;
+    --dark: #093146;
+    --purple: #9f50cb;
+}
+* {
+    margin: 0;
+    padding: 0;
+}
+.wrapper {
+    width: 1264px;
+    margin: 0 auto;
+    padding: 0 100px;
+}
+.nav {
+    background-color: var(--gray);
+    height: 60px;
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+.nav__logo {
+    width: 100px;
+    height: 40px;
+    background-color: var(--dark);
+    border-radius: 5px;
+}
+.nav__button {
+    width: 40px;
+    height: 40px;
+    position: absolute;
+    right: 60px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    cursor: pointer;
+}
+.nav__button span {
+    display: inline-block;
+    width: 80%;
+    height: 7px;
+    background-color: var(--purple);
+    border-radius: 3px;
+    position: relative;
+}
+.nav__button span::before, .nav__button span::after {
+    content: "";
+    display: block;
+    width: 100%;
+    height: 100%;
+    background-color: var(--purple);
+    border-radius: 3px;
+    position: absolute;
+}
+.nav__button span::before {
+    top: -12px;
+}
+.nav__button span::after {
+    bottom: -12px;
+}
+.header {
+    background-color: var(--dark);
+}
+.header__wrap {
+    padding: 60px 0 200px 0;
+    color: var(--purple);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+.header__wrap  h1 {
+    font-size: 40px;
+}
+.header__wrap p {
+    width: 400px;
+    font-size: 25px;
+    text-align: center;
+    padding: 20px 0;
+}
+.header__wrap button {
+    width: 150px;
+    height: 40px;
+    background-color: var(--purple);
+    border-radius: 10px;
+    cursor: pointer;
+}
+.header__photos {
+    display: flex;
+    column-gap: 50px;
+    position: absolute;
+    bottom: -150px;
+}
+.header__photo {
+    width: 300px;
+    height: 300px;
+    background-color: var(--purple);
+    border-radius: 20px;
+}
+.main {
+    background-color: var(--gray);
+}
+.products {
+    padding: 230px 0 50px 0;
+    color: var(--dark);
+}
+.products h2 {
+    text-align: center;
+    text-transform: uppercase;
+}
+.products__grid {
+    display: flex;
+    flex-wrap: wrap;
+    column-gap: 30px;
+    row-gap: 30px;
+    justify-content: center;
+    padding-top: 50px;
+}
+.products__card {;
+    width: 280px;
+}
+.products__card_photo {
+    background-color: var(--purple);
+    width: 280px;
+    height: 280px;
+    border-radius: 40px;
+    color: var(--dark);
+}
+.products__card h3 {
+    padding: 30px 0;
+    text-align: center;
+}
+.description h2 {
+    text-align: center;
+    text-transform: uppercase;
+    padding: 30px 0;
+}
+.description__grid {
+    display: flex;
+    column-gap: 30px;
+    flex-wrap: wrap;
+    row-gap: 30px;
+    padding-bottom: 50px;
+}
+.description__card {
+    width: 617px;
+}
+.description__card_image {
+    width: 617px;
+    height: 280px;
+    background-color: var(--purple);
+    border-radius: 40px;
+}
+.description__card h3 {
+    text-indent: 25px;
+    padding: 20px 0;
+}
+.description__card p {
+    padding: 0 0 20px 25px;
+    line-height: 25px;
+}
+.photos h2 {
+    text-align: center;
+}
+.photo {
+    display: flex;
+    column-gap: 30px;
+    justify-content: center;
+    padding: 50px 0;
+}
+.photo div {
+    width: 350px;
+    height: 250px;
+    background-color: var(--purple);
+    border-radius: 20px;
+}
+.about {
+    display: flex;
+    column-gap: 30px;
+    padding: 50px;
+}
+.about__imag {
+    width: 200px;
+    height: 200px;
+    background-color: var(--purple);
+    border-radius: 50%;
+}
+.about h2 {
+    padding-top: 30px;
+}
+.about p {
+    width: 800px;
+    padding-top: 30px;
+    line-height: 25px;
+    text-indent: 25px;
+    text-align: justify;
+}
+.footer {
+    background-color: var(--dark);
+}
+.footer__icon {
+    display: flex;
+    column-gap: 10px;
+    justify-content: center;
+    padding: 30px 0;
+    color: var(--purple);;
+}
+.footer__icon div {
+    width: 40px;
+    height: 40px;
+    border-radius: 10px;
+    background-color: var(--purple);
+    cursor: pointer;
+}
+.footer__item {
+    display: flex;
+    column-gap: 20px;
+    justify-content: center;
+    padding: 30px 0 50px 0;
+}
+.footer__item a {
+    text-decoration: none;
+    font-size: 25px;
+    color: var(--purple);
+    text-transform: uppercase;
+    transition: color .5s;
+}
+.footer__item a:hover {
+    color: white;
+}
