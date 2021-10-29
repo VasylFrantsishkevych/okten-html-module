@@ -1,0 +1,167 @@
+@media screen and (max-width: 400px){
+    .navbar {
+        flex-wrap: nowrap;
+    }
+    .container-fluid {
+        padding: 0 24px;
+    }
+    .container-fluid img {
+        width: 100px;
+    }
+    .description-machine__left {
+        padding-left: 15px;
+    }
+    .description-machine__left h1 {
+        font-size: 34px;
+        line-height: 40px;
+        text-align: center;
+        padding-top: 56px;
+    }
+    .description-machine__left p {
+        display: none;
+    }
+    .description-machine__left_mobile {
+        display: flex;
+        font-weight: 600;
+        font-size: 16px;
+        line-height: 32px;
+        letter-spacing: -0.004em;
+        color: #020303;
+    }
+    .description-machine__right {
+        margin: 0;
+    }
+    .description-machine__right img {
+        width: 100%;
+    }
+    .description-machine__center {
+        padding: 0;
+    }
+    .description-machine__center_mobile {
+        display: flex;
+    }
+    .description-machine__center_mobile img {
+        width: 100%;
+        padding-top: 30px;
+    }
+    .description-machine__center_image {
+        display: none!important;
+    }
+    .description-machine__center p {
+        padding: 23px 15px 0 15px;
+    }
+    .justify-content-center {
+        padding: 0;
+    }
+    .description-machine__bottom h2 {
+        font-size: 18px;
+        line-height: 40px;
+        text-align: center;
+        letter-spacing: 2.42px;
+        color: #FBFDFF;
+    }
+    .description-machine__bottom p {
+        font-size: 16px;
+        line-height: 32px;
+        letter-spacing: -0.4px;
+        color: #FBFDFF;
+        padding: 0 20px;
+    }
+    .info__right {
+        display: none;
+    }
+    .info__right_mobile {
+        display: flex;
+    }
+    .info__right_mobile img {
+        width: 100%;
+    }
+    .info__left  {
+        padding: 0 15px;
+    }
+    .info__left h2 {
+        font-size: 18px;
+        line-height: 40px;
+        text-align: center;
+        letter-spacing: 2.42px;
+        transform: rotate(0.02deg);
+        padding: 0;
+    }
+    .info__left p {
+        font-size: 17px;
+        line-height: 32px;
+        color: #45494F;
+    }
+    .features__top {
+        padding: 0 15px;
+    }
+    .features__top_title h2 {
+        font-weight: 500;
+        font-size: 20px;
+        line-height: 40px;
+        letter-spacing: 4.42px;
+        color: #020303;
+    }
+    .card {
+        width: 100%;
+    }
+    .features__bottom_title h2 {
+        font-weight: 500;
+        font-size: 20px;
+        line-height: 40px;
+        text-align: center;
+        letter-spacing: 4.42px;
+        color: #020303;
+    }
+    .features__bottom {
+        padding: 0 15px;
+        flex-wrap: wrap;
+    }
+    .carousel__title h2 {
+        padding: 50px 0 31px;
+    }
+    .button__title h2 {
+        font-weight: 500;
+        font-size: 20px;
+        line-height: 40px;
+        text-align: center;
+        color: #020303;
+    }
+    .buttons {
+        padding: 0 15px;
+    }
+    .footer {
+        padding: 0 15px;
+    }
+    .footer__top {
+        flex-direction: column;
+    }
+    .footer__top__name h2 {
+        text-align: center;
+        font-size: 26px;
+        line-height: 43px;
+        letter-spacing: -0.4px;
+        color: #1652AC;
+        padding-top: 30px;
+    }
+    .footer__top_logo {
+        padding: 100px 0 0 70px;
+    }
+    .footer__top_center p {
+        padding: 0;
+    }
+    .footer__top_center button {
+        width: 100%;
+    }
+    .footer__top_logo-mobile {
+        display: flex;
+        justify-content: center;
+        margin-top: 60px;
+    }
+    .footer__top_logo {
+        display: none;
+    }
+    .footer__bottom {
+        flex-direction: column;
+    }
+}
