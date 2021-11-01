@@ -1,0 +1,75 @@
+@media screen and (max-width: 400px) {
+    .container-main {
+        width: 100%;
+    }
+    .wrapper {
+        padding: 0 10px;
+    }
+    .d-n {
+        display: none;
+    }
+    .header__menu_mobile {
+        display: block;
+    }
+    .dropdown-divider {
+        background-color: #FFFFFF;
+    }
+    .header__contact_right {
+        flex-direction: column-reverse;
+    }
+    .header__logo img {
+        width: 37px;
+        height: 40px;
+    }
+    .header__name h1 {
+
+    }
+    .header__contact_logo {
+        width: 50%;
+    }
+    .header__contact_number {
+        width: 100%;
+    }
+    .header__contact_number h2 {
+        font-size: 14px;
+        line-height: 10px;
+        margin: 0;
+    }
+    .header__contact_number a {
+        font-size: 10px;
+        line-height: 12px;
+    }
+    .header__contact_message a {
+        font-weight: normal;
+        font-size: 10px;
+        line-height: 12px;
+    }
+    .header__contact_message {
+        width: 160px;
+    }
+    .header__contact {
+        margin: 10px 0;
+    }
+    .header__name h1 {
+        font-size: 12px;
+        line-height: 15px;
+        margin: 0;
+    }
+    .header__nav_mobile {
+        display: flex;
+        padding-bottom: 10px;
+    }
+    .header__hamburger {
+        display: flex;
+        flex-direction: column;
+        row-gap: 4px;
+    }
+    .btn {
+        position: relative;
+    }
+    .btn img{
+        position: absolute;
+        top: 10px;
+        right: 11px;
+    }
+}
