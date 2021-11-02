@@ -33,6 +33,19 @@
     background-color: #005BB9;
     border-radius: 6px;
 }
+.mobile-menu {
+    display: none;
+    background-color: #FFFFFF;
+}
+.header__menu_ipad {
+    display: none;
+}
+.mobile-menu__card p {
+    font-weight: normal;
+    font-size: 10px;
+    line-height: 12px;
+    color: #0F2438;
+}
 .header {
     background: #FFFFFF;
     box-shadow: 0 0 20px
@@ -93,7 +106,13 @@
 }
 .header__contact {
     margin: 32px 0 25px 0;
+    justify-content: space-between;
+}
+.header__contact_center {
     column-gap: 40px;
+}
+.header__contact_work-time {
+    width: 48%;
 }
 .header__contact_work-time img {
     width: 32px;
@@ -311,6 +330,7 @@
     width: 57px;
     height: 49px;
     margin: 0 0 20px 32px;
+    border: none;
 }
 .carousel-item  {
     position: relative;
@@ -332,7 +352,6 @@
     color: #0A1A2C;
 }
 .carousel-inner__card h4 {
-    font-weight: normal;
     font-size: 20px;
     line-height: 23px;
     text-decoration-line: underline;
@@ -365,6 +384,7 @@
     align-items: center;
     justify-content: center;
     column-gap: 8px;
+    border: none;
 }
 .slider__simple {
     margin-top: 64px;
@@ -407,6 +427,7 @@
     font-weight: 500;
     font-size: 20px;
     line-height: 23px;
+    border: none;
 }
 .button-two {
     width: 123px;
@@ -422,6 +443,9 @@
     box-sizing: border-box;
     border-radius: 6px;
     background-color: #FFFFFF;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 23px;
 }
 .product-list {
     row-gap: 30px;
@@ -490,6 +514,7 @@
     height: 49px;
     column-gap: 10px;
     margin: 0 0 10px 30px;
+    border: none;
 }
 .product-list__card_button button>img,
 .product-list__card_button img{
@@ -545,18 +570,21 @@
 }
 .footer__categories {
     padding-top: 36px;
-    column-gap: 50px;
+    column-gap: 132px;
+}
+.footer__categories_one {
+    column-gap: 132px;
 }
 .footer__categories_catalog h2,
 .footer__categories_contact h2,
-.footer__categories_contact p,
+.footer__categories_subscribe p,
 .footer__categories_address h2{
     font-weight: 500;
     font-size: 18px;
     line-height: 21px;
     color: #868DAC;
 }
-.footer__categories_contact {
+.footer__categories_connection {
     width: 470px;
 }
 .footer__categories_catalog a {
@@ -573,7 +601,7 @@
     line-height: 10px;
     margin-top: 12px;
 }
-.footer__categories_contact p {
+.footer__categories_subscribe p {
     padding-top: 23px;
 }
 .footer__categories_contact a {
@@ -609,7 +637,7 @@
     line-height: 19px;
 }
 .footer__bottom {
-    padding: 48px 0 20px 0;
+    padding: 48px 0 20px 286px;
 }
 .footer__bottom p {
     font-size: 16px;

@@ -14,6 +14,7 @@
     <title>control html</title>
 </head>
 <body>
+
 <div class="container-main">
 
     <div class="header">
@@ -81,6 +82,23 @@
                 <div class="header__menu_item">
                     <a class="nav-link" href="#">Контакты</a>
                 </div>
+
+            </div>
+
+            <div class="header__menu_ipad nav-item dropdown  align-items-center">
+                <a class="white nav-link dropdown-toggle" href="#" id="navbarDropdown7" role="button"
+                   data-bs-toggle="dropdown" aria-expanded="false">
+                    Еще
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                    <li><a class="dropdown-item" href="#">Доставка</a></li>
+                    <li><a class="dropdown-item" href="#">Оплата</a></li>
+                    <li><a class="dropdown-item" href="#">Гарантия</a></li>
+                    <li><a class="dropdown-item" href="#">Новости</a></li>
+                    <li><a class="dropdown-item" href="#">Журнал</a></li>
+                    <li><a class="dropdown-item" href="#">О магазине</a></li>
+                    <li><a class="dropdown-item" href="#">Контакты</a></li>
+                </ul>
             </div>
         </div>
 
@@ -96,14 +114,18 @@
                 </div>
             </div>
 
-            <div class="header__contact_work-time d-f d-n w-20">
+            <div class="header__contact_center d-f">
+
+                <div class="header__contact_work-time d-f d-n">
                 <img src="image/time%20(1)%201.png" alt="time">
                 <p class="text-end">Мы работаем: будни - 9:00-21:00 сб. - 10:00-15:00</p>
             </div>
 
-            <div class="header__contact_address d-f d-n w-20 align-items-center">
+                <div class="header__contact_address d-f d-n  align-items-center">
                 <img src="image/placeholder%202.png" alt="place2">
                 <p>Невский пр-т, д. 45</p>
+            </div>
+
             </div>
 
             <div class="header__contact_right d-f align-items-center">
@@ -143,6 +165,12 @@
 
         <div class="header__nav wrapper d-f">
 
+            <div id="hamburger" class="header__hamburger align-items-center justify-content-center">
+                <div></div>
+                <div></div>
+                <div></div>
+            </div>
+
             <div class="header__nav_button d-n">
                 <button class="b-color white fw-bold">Каталог</button>
                 <div class="header__nav_btn">
@@ -178,6 +206,30 @@
                     <a href="#">В корзине <br>нет товаров</a>
                 </div>
             </div>
+
+            <div class="mobile-menu">
+
+                <div class="mobile-menu__card d-f flex-column align-items-center" >
+                    <img src="image/home%20(2)%201.png" alt="home">
+                    <p>Главная</p>
+                </div>
+
+                <div class="mobile-menu__card d-f flex-column align-items-center" >
+                    <img src="image/heart%201.png" alt="heart">
+                    <p>Избранное</p>
+                </div>
+
+                <div class="mobile-menu__card d-f flex-column align-items-center" >
+                    <img src="image/cart%201.png" alt="cart">
+                    <p>Корзина</p>
+                </div>
+
+                <div class="mobile-menu__card d-f flex-column align-items-center" >
+                    <img src="image/user%20(1)%201.png" alt="user">
+                    <p>Профиль</p>
+                </div>
+
+            </div>
         </div>
 
     </div>
@@ -200,7 +252,7 @@
                         <div class="carousel-item active">
                             <div class="carousel-inner__card">
                                 <h3>Сцепление в сборе</h3>
-                                <h4>0AMCLUTCH</h4>
+                                <h4 class="fw-normal">0AMCLUTCH</h4>
                                 <div class="card__price d-f align-items-center">
                                     <h2 class="blue">14 499,99 ₽</h2>
                                     <h4>18 550,99 ₽ </h4>
@@ -209,7 +261,7 @@
                                 </button>
                             </div>
                             <img class="image" src="image/avt-zap_main_page_v01%20(1)%201.png" alt="avt-zap">
-                            <img src="image/slider.png" class="d-block w-100" alt="slider">
+                            <img  src="image/slider.png" class="image-slider d-block w-100" alt="slider">
                         </div>
                         <div class="carousel-item">
                             <div class="carousel-inner__card">
@@ -223,7 +275,7 @@
                                 </button>
                             </div>
                             <img class="image" src="image/avt-zap_main_page_v01%20(1)%201.png" alt="avt-zap">
-                            <img src="image/slider.png" class="d-block w-100" alt="slider">
+                            <img  src="image/slider.png" class="image-slider d-block w-100" alt="slider">
                         </div>
                         <div class="carousel-item">
                             <div class="carousel-inner__card">
@@ -237,7 +289,7 @@
                                 </button>
                             </div>
                             <img class="image" src="image/avt-zap_main_page_v01%20(1)%201.png" alt="avt-zap">
-                            <img src="image/slider.png" class="d-block w-100" alt="slider">
+                            <img  src="image/slider.png" class="image-slider d-block w-100" alt="slider">
                         </div>
                     </div>
                     <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
@@ -253,7 +305,7 @@
                 </div>
             </div>
 
-            <div class="slider__main_shares">
+            <div class="slider__main_shares ">
 
                 <div class="shares__card ">
                     <h6>Акция</h6>
@@ -330,8 +382,8 @@
 
     <div class="button-product">
         <button class="button-one b-color white">Подборки товаров</button>
-        <button class="button-two">Акции</button>
-        <button class="button-three">Сейчас покупают</button>
+        <button class="button-two blue">Акции</button>
+        <button class="button-three blue">Сейчас покупают</button>
     </div>
 
     <div class="product-list wrapper d-f flex-wrap justify-content-between">
@@ -353,7 +405,7 @@
                     <img src="image/cart%202.png" alt="card">В корзину
                 </button>
                 <img src="image/heart-shape-outline%202.png" alt="heart">
-                <img src="image/market-fluctuation%201.png" alt="marker">
+                <img class="marker" src="image/market-fluctuation%201.png" alt="marker">
             </div>
         </div>
 
@@ -377,7 +429,7 @@
                     <img src="image/cart%202.png" alt="card">В корзину
                 </button>
                 <img src="image/heart-shape-outline%202.png" alt="heart">
-                <img src="image/market-fluctuation%201.png" alt="marker">
+                <img class="marker" src="image/market-fluctuation%201.png" alt="marker">
             </div>
         </div>
 
@@ -398,7 +450,7 @@
                     <img src="image/cart%202.png" alt="card">В корзину
                 </button>
                 <img src="image/heart-shape-outline%202.png" alt="heart">
-                <img src="image/market-fluctuation%201.png" alt="marker">
+                <img class="marker" src="image/market-fluctuation%201.png" alt="marker">
             </div>
         </div>
 
@@ -419,7 +471,7 @@
                     <img src="image/cart%202.png" alt="card">В корзину
                 </button>
                 <img src="image/heart-shape-outline%202.png" alt="heart">
-                <img src="image/market-fluctuation%201.png" alt="marker">
+                <img class="marker" src="image/market-fluctuation%201.png" alt="marker">
             </div>
         </div>
 
@@ -440,7 +492,7 @@
                     <img src="image/cart%202.png" alt="card">В корзину
                 </button>
                 <img src="image/heart-shape-outline%202.png" alt="heart">
-                <img src="image/market-fluctuation%201.png" alt="marker">
+                <img class="marker" src="image/market-fluctuation%201.png" alt="marker">
             </div>
         </div>
 
@@ -464,7 +516,7 @@
                     <img src="image/cart%202.png" alt="card">В корзину
                 </button>
                 <img src="image/heart-shape-outline%202.png" alt="heart">
-                <img src="image/market-fluctuation%201.png" alt="marker">
+                <img class="marker" src="image/market-fluctuation%201.png" alt="marker">
             </div>
         </div>
 
@@ -485,7 +537,7 @@
                     <img src="image/cart%202.png" alt="card">В корзину
                 </button>
                 <img src="image/heart-shape-outline%202.png" alt="heart">
-                <img src="image/market-fluctuation%201.png" alt="marker">
+                <img class="marker" src="image/market-fluctuation%201.png" alt="marker">
             </div>
         </div>
 
@@ -506,7 +558,7 @@
                     <img src="image/cart%202.png" alt="card">В корзину
                 </button>
                 <img src="image/heart-shape-outline%202.png" alt="heart">
-                <img src="image/market-fluctuation%201.png" alt="marker">
+                <img class="marker" src="image/market-fluctuation%201.png" alt="marker">
             </div>
         </div>
 
@@ -568,7 +620,7 @@
                 </ul>
             </div>
 
-            <div class="news__card">
+            <div id="news-31" class="news__card">
                 <div class="news__card_date d-f flex-column align-items-center">
                     <div class="news__card_circle"></div>
                     <div class="news__card_line"></div>
@@ -591,7 +643,9 @@
 
             <div class="footer__categories d-f">
 
-                <div class="footer__categories_catalog">
+                <div class="footer__categories_one d-f">
+
+                    <div class="footer__categories_catalog">
                     <h2>КАТАЛОГ</h2>
                     <a class="white" href="#">Каталог запчастей</a>
                     <a class="white" href="#">Масла</a>
@@ -603,7 +657,7 @@
                     <a class="white" href="#">Акции</a>
                 </div>
 
-                <div class="footer__categories_heading">
+                    <div class="footer__categories_heading">
                     <div class="footer__categories_catalog">
                         <h2>РУБРИКАТОР</h2>
                         <a class="white" href="#">Доставка</a>
@@ -616,7 +670,7 @@
                     </div>
                 </div>
 
-                <div class="footer__categories_information">
+                    <div class="footer__categories_information">
                     <div class="footer__categories_catalog">
                         <h2>ИНФОРМАЦИЯ</h2>
                         <a class="white" href="#">Пользовательское соглашение
@@ -634,38 +688,51 @@
 
                 </div>
 
-                <div class="footer__categories_contact">
-                    <h2>КОНТАКТЫ</h2>
-                    <h5 class="mail white">+7 383 291 92 86</h5>
-                    <h5 class="mail white">info@avt-zap.ru</h5>
-                    <p>Мы онлайн, воспользуйтесь</p>
-                    <a class="white fw-normal" href="#">Форма обратной связи</a>
-                    <p>Подпишитесь на нашу расслыку и
-                        вы первыми узнаете о скидках и акциях</p>
-                    <div class="footer_subscribe d-f">
-                        <input type="text" placeholder="Введите ваш email">
-                        <button>Подписаться</button>
-                    </div>
-                    <div class="footer__soc-icon d-f justify-content-end">
-                        <a href="#"><img src="image/facebook%201.png" alt="facebook"></a>
-                        <a href="#"><img src="image/twitter%201.png" alt="twitter"></a>
-                        <a href="#"><img src="image/telegram%201.png" alt="telegram"></a>
-                        <a href="#"><img src="image/google-plus%201.png" alt="google-plus"></a>
-                    </div>
                 </div>
 
-                <div class="footer__categories_address">
-                    <h2>АДРЕС</h2>
-                    <p class="white">г. Новосибирск, ул. Планировочная, 5, офис 105</p>
+                <div class="footer__categories_connection">
+
+                    <div class="d-f">
+
+                        <div class="footer__categories_contact w-50">
+                            <h2>КОНТАКТЫ</h2>
+                            <h5 class="mail white">+7 383 291 92 86</h5>
+                            <h5 class="mail white">info@avt-zap.ru</h5>
+                        </div>
+
+                        <div class="footer__categories_address w-50">
+                        <h2>АДРЕС</h2>
+                        <p class="white">г. Новосибирск, ул. Планировочная, 5, офис 105</p>
+                    </div>
+
+                    </div>
+
+                    <div class="footer__categories_subscribe">
+                        <p>Мы онлайн, воспользуйтесь</p>
+                        <a class="white fw-normal" href="#">Форма обратной связи</a>
+                        <p>Подпишитесь на нашу расслыку и
+                            вы первыми узнаете о скидках и акциях</p>
+                        <div class="footer_subscribe d-f">
+                            <input type="text" placeholder="Введите ваш email">
+                            <button>Подписаться</button>
+                        </div>
+                        <div class="footer__soc-icon d-f justify-content-end">
+                            <a href="#"><img src="image/facebook%201.png" alt="facebook"></a>
+                            <a href="#"><img src="image/twitter%201.png" alt="twitter"></a>
+                            <a href="#"><img src="image/telegram%201.png" alt="telegram"></a>
+                            <a href="#"><img src="image/google-plus%201.png" alt="google-plus"></a>
+                        </div>
+                    </div>
+
                 </div>
 
             </div>
 
-            <div class="footer__bottom">
+        </div>
 
-                <p class="fw-normal">2017 © ООО «АВТ-ЗАП» - запчасти для акпп</p>
+        <div class="footer__bottom">
 
-            </div>
+            <p class="fw-normal">2017 © ООО «АВТ-ЗАП» - запчасти для акпп</p>
 
         </div>
 
