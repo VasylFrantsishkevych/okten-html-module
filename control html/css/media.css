@@ -318,8 +318,11 @@
         top: 10px;
         right: 11px;
     }
+    .search__mobile {
+        width: 100%;
+    }
     .search__mobile input {
-        width: 390px;
+        width: 100%;
     }
     .slider__main {
         display: block;
