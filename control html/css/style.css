@@ -36,6 +36,14 @@
 .mobile-menu {
     display: none;
     background-color: #FFFFFF;
+    width: 100%;
+    justify-content: space-around;
+    box-sizing: border-box;
+    padding-top: 11px;
+    position: fixed;
+    bottom: 0;
+    z-index: 1;
+    box-shadow: 0 0 10px;
 }
 .header__menu_ipad {
     display: none;

@@ -9,11 +9,7 @@
         display: none;
     }
     .mobile-menu {
-        width: 100%;
         display: flex;
-        justify-content: space-around;
-        box-sizing: border-box;
-        padding-top: 11px
     }
     .header__menu_mobile {
         display: block;
@@ -246,11 +242,7 @@
         display: none;
     }
     .mobile-menu {
-        width: 100%;
         display: flex;
-        justify-content: space-around;
-        box-sizing: border-box;
-        padding-top: 11px
     }
     .header__menu_mobile {
         display: block;
@@ -484,7 +476,7 @@
 }
 
 
-@media screen and (min-width: 700px) and (max-width: 800px) {
+@media screen and (min-width: 700px) and (max-width: 850px) {
     .container-main {
         width: 100%;
     }
